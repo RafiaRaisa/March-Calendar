@@ -1,0 +1,55 @@
+.calendar{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 1em;
+    grid-template-rows: 2em repeat(5,1fr);
+}
+.date, .day{
+    background-color: lightslategray;
+    border-radius: 10px;
+    font-size: 3em;
+ display: flex;justify-content: center;
+ align-items: center;
+
+}
+.other-color{
+}
+.day{
+ font-size: 2em;
+}
+.special{
+ color:red;
+}
+.fas{
+ color:red;
+}
+h1{
+ font-size: 3em;
+ color: darkmagenta;
+ text-align: center;
+ font-family: sans-serif;
+}
+.love{
+ margin: 10px 10px;
+ white-space: nowrap;
+ font-size: 2em;
+
+}
+span{
+font-family: 'Lobster', cursive;
+font-family: 'Moon Dance', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+color: darkviolet;
+}
+button{
+border: 2px solid blue;
+border-radius: 5px;
+background-color: darksalmon;
+width: 12%;
+font-size: -5em;
+}
+button:hover{
+ font-size: 3em;
+ width: 50%;
+}
